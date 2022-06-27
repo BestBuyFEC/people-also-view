@@ -1,0 +1,6 @@
+INSERT INTO product (name,description,price,img) VALUES('LEGO','Super Heroes Batmobile Tumbler',199.99,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6469/6469311_sd.jpg;maxHeight=180;maxWidth=180');
+INSERT INTO product (name,description,price,img) VALUES('LEGO','Star Wars Republic',349.99,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6485/6485590_sd.jpg;maxHeight=180;maxWidth=180');
+INSERT INTO product (name,description,price,img) VALUES('LEGO','Super Mario Nintendo Entertainment System',229.99,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6434/6434148_sd.jpg;maxHeight=180;maxWidth=180');
+INSERT INTO product (name,description,price,img) VALUES('LEGO','Star Wars TM Imperial Star Destroyer',699.99,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6425/6425427_sd.jpg;maxHeight=180;maxWidth=180');
+INSERT INTO product (name,description,price,img) VALUES('LEGO','Star Wars Mos Eisley Cantina',349.99,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6434/6434166_sd.jpg;maxHeight=180;maxWidth=180');
+INSERT INTO product (name,description,price,img) VALUES('LEGO','Star Wars BD-1',99.99,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501699_sd.jpg;maxHeight=180;maxWidth=180');
