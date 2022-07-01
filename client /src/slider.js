@@ -8,6 +8,10 @@ import StarRating from './stars';
 function DemoCarousel({product}) {
     console.log(product) 
         return (
+
+            <>
+            <h2>More to consider</h2>
+            <hr></hr>
             <Carousel centerMode={true} centerSlidePercentage={20} showThumbs={false} showIndicators={false} showStatus={false}>
                  
                  
@@ -22,6 +26,7 @@ function DemoCarousel({product}) {
         )): null}
         
             </Carousel>
+            </>
         );
     
 };
