@@ -1,4 +1,66 @@
-.carousel.carousel-slider{
+/* .carousel.carousel-slider{
     height: 600px;
     
+} */
+
+.carousel-root{
+    background-color: white;
+}
+
+.mtcCarousel{
+    max-width: 1300px
+}
+
+.considerProductContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    /* width: 600px;
+    margin-right: 10px; */
+    padding-top: 20px;
+}
+
+.sliderImage img{
+    height: 125px !important;
+    width: 125px !important;
+}
+
+/* .lego {
+    width: 200px;
+} */
+
+.mtcTitle {
+    margin-bottom: 15px;
+}
+
+.mtcProductTitle {
+    font-size: 14px;
+    color: #0457c8;
+    margin-bottom: 20px;
+}
+
+.mtcStarContainer{
+    margin-bottom: 10px;
+}
+
+.mtcPrice{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mtcCompareInput{
+    display: flex;
+    justify-content: center;
+}
+
+.sliderCheckbox {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+}
+
+.mtcSpanCompare{
+    color: #0457c8;
+    font-size: 13px;
 }

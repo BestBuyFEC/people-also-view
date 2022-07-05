@@ -10,18 +10,25 @@ function DemoCarousel({product}) {
         return (
 
             <>
-            <h2>More to consider</h2>
+            <h2 className='mtcTitle'>More to consider</h2>
             <hr></hr>
-            <Carousel centerMode={true} centerSlidePercentage={20} showThumbs={false} showIndicators={false} showStatus={false}>
+            <Carousel className='mtcCarousel' centerMode={true} centerSlidePercentage={35} showThumbs={false} showIndicators={false} showStatus={false}>
                  
                  
         {product ? product.map((list) => ( 
-            <div className='lego'>
-                <img src={list.img} className="image"></img>
-            <p key={list.productid}> {list.name}-{list.description}</p>
-            <StarRating/>
-            <p>${list.price}</p>
-            <button value={list.productid}>Compare</button>
+            <div className='considerProductContainer'>
+                <div className='sliderImage'>
+                    <img src={list.img} className="image"></img>
+                </div>
+                <div className='lego'>
+                    <p className='mtcProductTitle' key={list.productid}> {list.name}-{list.description}</p>
+                    <StarRating/>
+                    <p className='mtcPrice'>${list.price}</p>
+                    <div className='mtcCompareInput'>
+                        <input className='sliderCheckbox' type='checkbox' value={list.productid}/>
+                        <span className='mtcSpanCompare'>Compare</span>
+                    </div>
+                </div>
             </div>
         )): null}
         
