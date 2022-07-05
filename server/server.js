@@ -5,7 +5,7 @@ const db = require('./pool');
 const cors = require('cors')
 app.use(cors())
 
-app.get('/api/products', async (req,res) => {
+app.get('/api/product', async (req,res) => {
     try {
         let data = await db.query('SELECT * FROM product')
         res.json(data.rows)

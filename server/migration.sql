@@ -1,4 +1,8 @@
+DROP DATABASE alsoviewed_db;
 DROP TABLE product;
+
+CREATE DATABASE alsoviewed_db;
+\c alsoviewed_db;
 
 CREATE TABLE product(
 productid SERIAL NOT NULL,
